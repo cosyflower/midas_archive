@@ -102,4 +102,29 @@ self.features = timm.create_model(architecture, pretrained=True)
 
 #### Batch Normalization - Layer Normalization 
 
-Normalization을 하는 이유 
+Normalization을 하는 이유 - 모든 데이터들의 스케일을 동일하게 만들어서 각 feature 값들이 동등한 중요도를 가지도록 하는 작업이다. 특정하게 치우진 데이터들을 넓게 분포하는 형태로 만들 수 있기 때문에 학습적인 측면에서 더 효율적이라고 말할 수 있다. 
+
+![[Pasted image 20240813142412.png]]
+![[Pasted image 20240813143004.png]]
+
+![[Pasted image 20240813143014.png]]
+
+
+
+![[Pasted image 20240813143023.png]]
+
+
+
+![[Pasted image 20240813143032.png]]
+
+- Feature 별로 mean, std 추출하는 Batch Normalization - batch size에 의존적임 
+- 각 데이터 별 mean, std 추출하는 Layer Normalization - batch size에 의존적이지 않음
+
+##### Input and Output parameterization
+
+
+
+
+
+##### 다른 결과들과 비교하는 것에 대해서
+

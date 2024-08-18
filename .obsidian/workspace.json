@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2e1be53b1cba7298",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Transfuser_Autopilot.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ObjectDetection.md",
+                "file": "Transfuser_Autopilot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ObjectDetection.md",
+                "file": "Transfuser_Autopilot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ObjectDetection.md"
+                "file": "Transfuser_Autopilot.md"
               }
             }
           }
@@ -159,10 +171,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8ee828e8c361e7d5",
+  "active": "2e1be53b1cba7298",
   "lastOpenFiles": [
-    "Code_Transfuser.md",
     "ObjectDetection.md",
+    "Transfuser_Autopilot.md",
+    "Code_Transfuser.md",
     "Pasted image 20240814230745.png",
     "md_pictures/Pasted image 20240814230424.png",
     "md_pictures/Pasted image 20240814230047.png",
